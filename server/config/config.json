@@ -1,0 +1,7 @@
+{
+    "development": {
+        "JWT_SECRET": "[aca va el token]",
+        "MONGODB_URI": "mongodb://localhost:27017/store",
+        "port": "3000"
+    }
+}
