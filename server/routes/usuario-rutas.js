@@ -36,7 +36,7 @@ api.post('/usuarios/session', async (req, res) => {
     } catch (e) {
         Logger.log('Request fallido, se retorna 400. Ver error debajo', LoggerType.ERROR)
         Logger.log(e, LoggerType.ERROR)
-        res.status(400).send(new ApiResponse({}, `Mensaje: ${e}`))
+        res.status(400).send(new ApiResponse({}, errorHelper(e)))
     }
 })
 
@@ -50,7 +50,7 @@ api.get('/usuarios', (req, res) => {
         .catch((e) => {
             Logger.log('Request fallido, se retorna 400. Ver error debajo', LoggerType.ERROR)
             Logger.log(e, LoggerType.ERROR)
-            res.status(400).send(new ApiResponse({}, `Mensaje: ${e}`))
+            res.status(400).send(new ApiResponse({}, errorHelper(e)))
         })
 })
 
@@ -62,19 +62,27 @@ api.post('/usuarios', async (req, res) => {
         var usuario = new Usuario(_.pick(req.body, ['email', 'nombre', 'apellido', 'password','direccion']))
         usuario.email = usuario.email.toString().toLowerCase()
         usuario = await usuario.save()
-        await usuario.generateAuthToken()
+        await usuario.generateAuthToken();
         usuario.save();
         Logger.log('Request exitoso, se retorna 200')
-        res.status(200).send({})
+        res.status(200).send({});
     } catch (e) {
         Logger.log('Request fallido, se retorna 400. Ver error debajo', LoggerType.ERROR)
         Logger.log(e, LoggerType.ERROR)
-        res.status(400).send(new ApiResponse({}, `Mensaje: ${'Error al dar de alta'}`))
+        errorHelper(e)
+        res.status(400).send(new ApiResponse({}, errorHelper(e)))
     }
 })
 
 
+function errorHelper(obj) {
+    const str = obj.toString();
+    if(str.indexOf('MDLERR') > -1) {
+        return str.substr(str.indexOf('MDLERR')+7);
+    }
+    return str;
 
+}
 
 
 

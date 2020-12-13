@@ -23,7 +23,9 @@ const LoggerType = {
 class Logger {
 
     static log(data, type = LoggerType.INFO) {
-        log[type](data);
+        if(log.getLevel() === 'all') {
+            log[type](data);
+        }
     }
 
     static setLevel (type) {

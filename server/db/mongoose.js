@@ -1,5 +1,6 @@
 var mongoose = require ('mongoose');
 const {Logger, LoggerType} = require('../logs/logger');
+const {initData} = require('./init-data.js')
 
 mongoose.Promise = global.Promise;
 
@@ -9,6 +10,7 @@ mongoose.connect(process.env.MONGODB_URI, {
     }).then(
         res => {
             Logger.log('Conexión a la bd exitosa')
+            initData();
         }
     ).catch(
         err => {

@@ -10,23 +10,25 @@ var UsuarioSchema = mongoose.Schema({
     nombre: {
         type: String,
         trim: true,
-        required: true,
+        required: [true, "MDLERR Nombre es requerido"]
     },
     apellido: {
         type: String,
         trim: true,
-        required: true,
+        required: [true, "MDLERR Apellido es requerido"]
     },
     direccion: {
         type: String,
         required: true,
+        required: [true, "MDLERR Dirección es requerida"]
     },
     email: {
         type: String,
-        required: true,
+        required: [true, "MDLERR Email es requerido"],
         minlength: 1,
         trim: true,
         unique: true,
+        uniqueCaseInsensitive: true,
         validate: {
             validator: validator.isEmail,
             message: '{VALUE} No es un email válido.'
@@ -35,8 +37,8 @@ var UsuarioSchema = mongoose.Schema({
   
     password: {
         type: String,
-        minlength: 8,
-        required: true,
+        minlength: [8, "MDLERR Password debe ser de al menos 8 caracteres"],
+        required: [true, "MDLERR Password es requerido"],
     },
     tokens: [{
         access: {
@@ -48,7 +50,7 @@ var UsuarioSchema = mongoose.Schema({
     }],
 })
 
-UsuarioSchema.plugin(uniqueValidator);
+UsuarioSchema.plugin(uniqueValidator, { message: 'MDLERR El valor {VALUE} ya fue utilizado' });
 
 UsuarioSchema.methods.generateAuthToken = async function () {
     var usuario = this;

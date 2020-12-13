@@ -22,14 +22,15 @@ try {
     
     require('./db/mongoose')
     
+    
+    Logger.log('')
+    Logger.log('Cargando middlewares, rutas');
     const { autenticacion } = require('./middlewares/autenticacion')
     const usuariosRuta = require('./routes/usuario-rutas');
-    
-    //const recetaRutas = require('./routes/receta-rutas');
-    
-    
-    
-    
+    const productosRuta = require('./routes/producto-rutas');
+    const sucursalesRuta = require('./routes/sucursal-rutas');
+    const pedidosRuta = require('./routes/pedido-rutas');
+    const logsRuta = require('./routes/log-rutas');
     
     const app = express()
     app.use(cors())
@@ -40,12 +41,21 @@ try {
     
     app.use('/api', autenticacion)
     app.use('/api', usuariosRuta);
-    /* app.use('/api', recetaRutas) */
+    app.use('/api', productosRuta);
+    app.use('/api', sucursalesRuta);
+    app.use('/api', pedidosRuta);
+    app.use('/api', logsRuta);
     
+    
+    Logger.log('Fin carga rutas');
+
+    
+    Logger.log('');
+    Logger.log('Publicando carpeta doc y api');
+ 
     
     let ruta = __dirname
-    ruta = ruta.substring(0, ruta.length - 6) + 'doc'
-    
+    ruta = ruta.substring(0, ruta.length - 6) + 'static'
     app.use(express.static(ruta))
     
     app.listen(port, () => {
