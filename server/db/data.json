@@ -1,204 +1,336 @@
 {
     "productos": [
         {
-            "nombre": "Carpa California, iglu 4 personas",
-            "descripcion": "Carpa Iglu para 4 personas, autoarmable. 2 colores",
+            "codigo": "PRCODE001",
+            "nombre": "Carpa California, iglú 4 personas",
+            "descripcion": "Carpa iglú para 4 personas, autoarmable. 2 colores",
             "precio": 1800,
             "urlImagen": "carpa1",
             "estado": "en stock",
             "puntaje": 2,
-            "etiquetas": ["carpa","iglu", "autoarmable"
+            "etiquetas": [
+                "carpa",
+                "iglú",
+                "autoarmable"
             ]
         },
         {
-            "nombre": "Carpa Colony iglu 3 personas",
+            "codigo": "PRCODE002",
+            "nombre": "Carpa Colony iglú 3 personas",
             "descripcion": "Carpa iglú con avance. Para 3 personas. Con sobretecho impermeable",
             "precio": 3000,
             "urlImagen": "carpa2",
             "estado": "en stock",
             "puntaje": 5,
-            "etiquetas": ["carpa","iglu","avance","sobretecho"
+            "etiquetas": [
+                "carpa",
+                "iglú",
+                "avance",
+                "sobretecho"
             ]
         },
         {
+            "codigo": "PRCODE003",
             "nombre": "Carpa Bestway para 6 personas",
             "descripcion": "Carpa para 6 personas, con 2 dormitorios. Con funda para su traslado",
             "precio": 3500,
             "urlImagen": "carpa3",
             "estado": "en stock",
             "puntaje": 2,
-            "etiquetas": ["carpa","dormitorio","6personas"
+            "etiquetas": [
+                "carpa",
+                "dormitorio",
+                "6personas"
             ]
         },
         {
+            "codigo": "PRCODE004",
             "nombre": "Carpa Estructural Doite",
             "descripcion": "Carpa estructural Doite para 5 personas. Con 2 ambientes y fácil armado. Por su gran altura permite estar de pie",
             "precio": 5500,
             "urlImagen": "carpa4",
             "estado": "sin stock",
             "puntaje": 5,
-            "etiquetas": ["carpa","estructural","Doite","5personas"
+            "etiquetas": [
+                "carpa",
+                "estructural",
+                "Doite",
+                "5personas"
             ]
         },
         {
+            "codigo": "PRCODE005",
             "nombre": "Carpa Arye canadiense",
             "descripcion": "Carpa canadiense Arye. Para 2 o 3 personas. Con tejido mosquitero, estructura de aluminio, piso lona cubre todo impermeable",
             "precio": 6000,
             "urlImagen": "carpa5",
             "estado": "en stock",
             "puntaje": 4,
-            "etiquetas": ["canadiense","carpa","Arye"
+            "etiquetas": [
+                "canadiense",
+                "carpa",
+                "Arye"
             ]
         },
         {
+            "codigo": "PRCODE006",
             "nombre": "Sobre de dormir Dormilonas",
             "descripcion": "Sobre de dormir. 2mt de largo. Con capucha y sobre para su fácil guardado. Color azul",
             "precio": 600,
             "urlImagen": "sobre1",
             "estado": "en stock",
             "puntaje": 4,
-            "etiquetas": ["sobre","dormir","capucha"
+            "etiquetas": [
+                "sobre",
+                "dormir",
+                "capucha"
             ]
         },
         {
+            "codigo": "PRCODE007",
             "nombre": "Sobre de dormir infantil",
             "descripcion": "Sobre de dormir para niño/a, diseño de oso. Con capucha y resistente a bajas temperaturas. Largo 1,5mts",
             "precio": 900,
             "urlImagen": "sobre2",
             "estado": "en stock",
             "puntaje": 5,
-            "etiquetas": ["sobre","camping","infantil","oso"
+            "etiquetas": [
+                "sobre",
+                "camping",
+                "infantil",
+                "oso"
             ]
         },
         {
+            "codigo": "PRCODE008",
             "nombre": "Sobre de dormir Bestway",
             "descripcion": "Sobre de dormir de camping Bestway. Para adultos. Corte ajustado y acolchado para mayor comodidad y abrigo. Doble cierre",
             "precio": 1500,
             "urlImagen": "sobre3",
             "estado": "en stock",
             "puntaje": 4,
-            "etiquetas": ["sobre","camping","bestway"
+            "etiquetas": [
+                "sobre",
+                "camping",
+                "bestway"
             ]
         },
         {
+            "codigo": "PRCODE009",
             "nombre": "Sobre de dormir National Geographic",
             "descripcion": "Sobre de dormir National Geographic para camping, Diseño tipo sarcófago para mejor abrigo en temperaturas de hasta -3°C. Largo: 2,30 mts. Incluye funda para guardado",
             "precio": 2500,
             "urlImagen": "sobre4",
             "estado": "sin stock",
             "puntaje": 5,
-            "etiquetas": ["sobre","NationalGeographic","camping"
+            "etiquetas": [
+                "sobre",
+                "NationalGeographic",
+                "camping"
             ]
         },
         {
+            "codigo": "PRCODE010",
             "nombre": "Sobre de dormir camuflado",
             "descripcion": "Sobre de dormir con diseño de camuflaje. Medida extra grande 2.10 x 075m , resiste hasta -3ºC Cierre en toda su extensión para abrir como acolchado . Capucha curva con elástico",
             "precio": 1500,
             "urlImagen": "sobre5",
             "estado": "en stock",
             "puntaje": 3,
-            "etiquetas": ["sobre","camuflado","camping"
+            "etiquetas": [
+                "sobre",
+                "camuflado",
+                "camping"
             ]
         },
         {
+            "codigo": "PRCODE011",
             "nombre": "Silla plegable con apoyabrazos",
             "descripcion": "Silla plegable Klimber con apoyabrazos y soporte para vaso. De lona azul y estructura de aluminio",
             "precio": 500,
             "urlImagen": "silla1",
             "estado": "en stock",
             "puntaje": 2,
-            "etiquetas": ["silla","plegable","apoyabrazos","camping"
+            "etiquetas": [
+                "silla",
+                "plegable",
+                "apoyabrazos",
+                "camping"
             ]
         },
         {
+            "codigo": "PRCODE012",
             "nombre": "Silla reposera alta",
             "descripcion": "Silla plegable tipo reposera alta. Estructura de aluminio y asiento de lona blanca. Incluye apoya cabeza",
             "precio": 2500,
             "urlImagen": "silla2",
             "estado": "en stock",
             "puntaje": 3,
-            "etiquetas": ["silla","plegable","reposera","camping"
+            "etiquetas": [
+                "silla",
+                "plegable",
+                "reposera",
+                "camping"
             ]
         },
         {
+            "codigo": "PRCODE013",
             "nombre": "Silla plegable MOR",
             "descripcion": "Silla plegable MOR tipo reposera alta y asiento ancho. Estructura de aluminio de primera calidad. Resiste hasta 120kg",
             "precio": 1000,
             "urlImagen": "silla3",
             "estado": "en stock",
             "puntaje": 4,
-            "etiquetas": ["silla","plegable","reposera","camping","playa"
+            "etiquetas": [
+                "silla",
+                "plegable",
+                "reposera",
+                "camping",
+                "playa"
             ]
         },
         {
+            "codigo": "PRCODE014",
             "nombre": "Silla plegable con sombrilla",
             "descripcion": "Silla plegable con sombrilla, posabrazos y bolsillo frontal. Estructura de metal y lona de poliéster. La sombrilla cuenta con protección contra rayos UV. Peso total 4,5 kg",
             "precio": 2500,
             "urlImagen": "silla4",
             "estado": "en stock",
             "puntaje": 4,
-            "etiquetas": ["silla","plegable","sombrilla,'camping"
+            "etiquetas": [
+                "silla",
+                "plegable",
+                "sombrilla",
+                "camping"
             ]
         },
         {
+            "codigo": "PRCODE015",
             "nombre": "Silla plegable con bolso debajo",
             "descripcion": "Silla plegable Safari con bolso debajo del asiento. Color rojo. Sin posabrazos. Estructura de aluminio de primera calidad y asiento en tela lona Oxford. Base tipo tijera y respaldo bajo. Incluye mochila para fácil transporte",
             "precio": 800,
             "urlImagen": "silla5",
             "estado": "en stock",
             "puntaje": 5,
-            "etiquetas": ["silla","plegable","lona","camping","bolso"
+            "etiquetas": [
+                "silla",
+                "plegable",
+                "lona",
+                "camping",
+                "bolso"
             ]
         },
         {
+            "codigo": "PRCODE016",
             "nombre": "Farol Led para camping",
             "descripcion": "Farol con luz LED ideal para camping. 36 luces LED. Requiere 4 pilas tipo D. Color dorado. Con manija para colgar",
             "precio": 200,
             "urlImagen": "farol1",
             "estado": "en stock",
             "puntaje": 5,
-            "etiquetas": ["farol","led","iluminación","camping","accesorios"
+            "etiquetas": [
+                "farol",
+                "led",
+                "iluminación",
+                "camping",
+                "accesorios"
             ]
         },
         {
+            "codigo": "PRCODE017",
             "nombre": "Cocinilla a gas para camping",
             "descripcion": "Cocinilla con conexión para garrafa de 3kg o 13kg de gas butano. Sistema de seguridad. Encendido eléctrico. Valija plástica para fácil transporte",
             "precio": 1500,
             "urlImagen": "cocinilla1",
             "estado": "en stock",
             "puntaje": 3,
-            "etiquetas": ["cocinilla","gas","cocina","camping","accesorios"
+            "etiquetas": [
+                "cocinilla",
+                "gas",
+                "cocina",
+                "camping",
+                "accesorios"
             ]
         },
         {
+            "codigo": "PRCODE018",
             "nombre": "Conservadora Coleman 4,5Lt",
             "descripcion": "Conservadora Coleman roja 45.4LTS. Mantiene frías las comidas y bebidas por hasta 3 días . Lo suficientemente grande como para contener 63 latas y lo suficientemente alto como para sostener botellas de 2 litros en posición vertical. Con drenaje que facilita el drenaje de agua",
             "precio": 3000,
             "urlImagen": "conservadora1",
             "estado": "en stock",
             "puntaje": 5,
-            "etiquetas": ["conservadora","Coleman","frio","camping","accesorios"
+            "etiquetas": [
+                "conservadora",
+                "Coleman",
+                "frio",
+                "camping",
+                "accesorios"
             ]
         },
         {
+            "codigo": "PRCODE019",
             "nombre": "Mesa plegable con asientos",
             "descripcion": "Mesa plegable con asientos ideal para camping y actividades al aire libre. Con espacio para 4 personas. Elaborado en metal y plástico. Con valija para guardar y transportar",
             "precio": 2300,
             "urlImagen": "mesa1",
             "estado": "en stock",
             "puntaje": 5,
-            "etiquetas": ["mesa","plegable","portátil","camping","equipamiento"
+            "etiquetas": [
+                "mesa",
+                "plegable",
+                "portátil",
+                "camping",
+                "equipamiento"
             ]
         },
         {
+            "codigo": "PRCODE020",
             "nombre": "Set de cocina para camping",
             "descripcion": "Set de cocina para camping National Geographic. Para 4 personas. Incluye 1 Sartén, 2 Ollas, 4 Bowls, 1 Cucharón plástico y 1 Cuchara plástica. Material aluminio",
             "precio": 2200,
             "urlImagen": "mesa1",
             "estado": "sin stock",
             "puntaje": 5,
-            "etiquetas": ["cocina","olla","Nationalgeographic","camping","equipamiento"
+            "etiquetas": [
+                "cocina",
+                "olla",
+                "Nationalgeographic",
+                "camping",
+                "equipamiento"
             ]
+        }
+    ],
+    "sucursales": [
+        {
+            "nombre": "Aguada",
+            "direccion": "Avenida General Flores 2073",
+            "ciudad": "Montevideo",
+            "pais": "Uruguay"
+        },
+        {
+            "nombre": "Pocitos",
+            "direccion": "Teniente General Pablo Galarza 3629",
+            "ciudad": "Montevideo",
+            "pais": "Uruguay"
+        },
+        {
+            "nombre": "Cordón",
+            "direccion": "Avenida 18 de Julio 1743",
+            "ciudad": "Montevideo",
+            "pais": "Uruguay"
+        },
+        {
+            "nombre": "Centro",
+            "direccion": "Avenida 18 de Julio 956",
+            "ciudad": "Montevideo",
+            "pais": "Uruguay"
+        },
+        {
+            "nombre": "Punta Carretas",
+            "direccion": "José Ellauri 350",
+            "ciudad": "Montevideo",
+            "pais": "Uruguay"
         }
     ]
 }
