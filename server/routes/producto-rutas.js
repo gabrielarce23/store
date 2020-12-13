@@ -44,7 +44,7 @@ api.get('/productos/:id', async (req, res) => {
 
         if (producto) {
             Logger.log('Request exitoso, se retorna 200')
-            res.status(200).send(producto);
+            res.status(200).send(new ApiResponse(producto));
         } else {
             Logger.log('Request no exitoso, se retorna 400')
             Logger.log('Producto no encontrado')

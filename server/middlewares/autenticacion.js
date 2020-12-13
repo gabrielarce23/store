@@ -3,7 +3,9 @@ const {Logger, LoggerType} = require('../logs/logger');
 
 const authorizedEndpoints = [
     {path: '/usuarios', method: 'post'},
-    {path: '/usuarios/session', method: 'post'}
+    {path: '/usuarios/session', method: 'post'},
+    {path: '/logs', method: 'post'},
+
 ]
 
 var autenticacion = (req, res, next) => {

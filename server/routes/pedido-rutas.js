@@ -22,7 +22,7 @@ api.get('/pedidos', async (req, res) => {
             .populate('producto');
     
         Logger.log('Request exitoso, se retorna 200')
-        res.status(200).send(pedidos);
+        res.status(200).send(new ApiResponse(pedidos));
 
     }catch(e) {
         Logger.log('Request fallido, se retorna 400. Ver error debajo', LoggerType.ERROR)

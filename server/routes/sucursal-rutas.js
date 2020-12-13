@@ -14,7 +14,7 @@ api.get('/sucursales', (req, res) => {
         .then(
             (sucursales) => {
                 Logger.log('Request exitoso, se retorna 200')
-                res.status(200).send(sucursales)
+                res.status(200).send(new ApiResponse(sucursales))
             })
         .catch((e) => {
             Logger.log('Request incorrecto, se retorna 400')
