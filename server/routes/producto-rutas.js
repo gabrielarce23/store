@@ -8,7 +8,7 @@ const {Logger, LoggerType} = require('../logs/logger');
 
 
 api.get('/productos', (req, res) => {
-    selectFields = 'nombre precio etiquetas _id urlImagen codigo';
+    selectFields = 'nombre precio etiquetas _id urlImagen codigo estado';
     let filter = {};
     if(req.query.nombre) {
         filter = {nombre: {$regex: req.query.nombre, $options: 'i'}};
@@ -37,7 +37,7 @@ api.get('/productos/:id', async (req, res) => {
 
     try {
         const productoId = req.params.id
-        let selectFields = 'nombre precio etiquetas _id urlImagen puntaje descripcion codigo';
+        let selectFields = 'nombre precio etiquetas _id urlImagen puntaje descripcion codigo estado';
     
         
         let producto = await Producto.findById(productoId, selectFields);

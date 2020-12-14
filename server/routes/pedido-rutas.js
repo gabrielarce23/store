@@ -121,7 +121,6 @@ api.put('/pedidos/:id', async (req, res) => {
             Logger.log('Request fallido, se retorna 400. Producto en estado incorrecto', LoggerType.ERROR)
             return res.status(400).send(new ApiResponse({}, 'Producto en estado incorrecto'))
         }
-        console.log(req.body)
         if(!req.body.comentario) {
             Logger.log('Request fallido, se retorna 400. Debe ingresar comentario', LoggerType.ERROR)
             return res.status(400).send(new ApiResponse({}, 'Debe ingresar comentario'))

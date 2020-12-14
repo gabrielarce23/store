@@ -40,19 +40,6 @@ api.post('/usuarios/session', async (req, res) => {
     }
 })
 
-api.get('/usuarios', (req, res) => {
-
-    Usuario.find({},{tokens: 0, password: 0})
-        .then((usuarios) => {
-            Logger.log('Request exitoso, se retorna 200')
-            res.status(200).send(new ApiResponse(usuarios))
-        })
-        .catch((e) => {
-            Logger.log('Request fallido, se retorna 400. Ver error debajo', LoggerType.ERROR)
-            Logger.log(e, LoggerType.ERROR)
-            res.status(400).send(new ApiResponse({}, errorHelper(e)))
-        })
-})
 
 api.post('/usuarios', async (req, res) => {
 
