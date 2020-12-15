@@ -1,7 +1,7 @@
 {
     "JWT_SECRET": "ss3ri390sldkfj32nr",
     "MONGODB_URI": "mongodb://localhost:27017/store",
-    "port": "3000",
+    "PORT": "3000",
     "logLevel": "all",
-    "logkey": "logKey"
+    "logKey": "logKey"
 }
