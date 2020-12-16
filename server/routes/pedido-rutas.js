@@ -60,6 +60,11 @@ api.post('/pedidos', async (req, res) => {
             Logger.log('Request fallido, se retorna 400. Cantidad incorrecta', LoggerType.ERROR)
             return res.status(400).send(new ApiResponse({}, 'Cantidad debe ser número mayor a 0'))
         }
+
+        if(producto.estado !== 'en stock') {
+            Logger.log('Request fallido, se retorna 400. No hay stock del producto', LoggerType.ERROR)
+            return res.status(400).send(new ApiResponse({}, 'Producto no disponible en stock'))
+        }
         
         let pedido = new Pedido({
             cantidad: dataPedido.cantidad,
