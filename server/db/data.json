@@ -2,302 +2,230 @@
     "productos": [
         {
             "codigo": "PRCODE001",
-            "nombre": "Carpa California, iglú 4 personas",
-            "descripcion": "Carpa iglú para 4 personas, autoarmable. 2 colores",
-            "precio": 1800,
-            "urlImagen": "carpa1",
+            "nombre": "Milanesa de Carne Vegetal Multicereal Frita",
+            "descripcion": "Precio por porción",
+            "precio": 115,
+            "urlImagen": "milanesas-carne-vegetal",
             "estado": "en stock",
             "puntaje": 2,
             "etiquetas": [
-                "carpa",
-                "iglú",
-                "autoarmable"
+                "milanesa",
+                "vegetal",
+                "multicereal"
             ]
         },
         {
             "codigo": "PRCODE002",
-            "nombre": "Carpa Colony iglú 3 personas",
-            "descripcion": "Carpa iglú con avance. Para 3 personas. Con sobretecho impermeable",
-            "precio": 3000,
-            "urlImagen": "carpa2",
+            "nombre": "Empanada de Jamón y Queso al Horno",
+            "descripcion": "Precio por unidad",
+            "precio": 72,
+            "urlImagen": "empanada-jamon-queso",
             "estado": "en stock",
             "puntaje": 5,
             "etiquetas": [
-                "carpa",
-                "iglú",
-                "avance",
-                "sobretecho"
+                "empanada",
+                "jamon",
+                "queso"
             ]
         },
         {
             "codigo": "PRCODE003",
-            "nombre": "Carpa Bestway para 6 personas",
-            "descripcion": "Carpa para 6 personas, con 2 dormitorios. Con funda para su traslado",
-            "precio": 3500,
-            "urlImagen": "carpa3",
+            "nombre": "Tarta de Ricota, Espinaca y Zanahoria Reducida en Calorías",
+            "descripcion": "Precio por porción",
+            "precio": 100,
+            "urlImagen": "tarta-ricota-espinaca",
             "estado": "en stock",
             "puntaje": 2,
             "etiquetas": [
-                "carpa",
-                "dormitorio",
-                "6personas"
+                "tarta",
+                "espinaca",
+                "light"
             ]
         },
         {
             "codigo": "PRCODE004",
-            "nombre": "Carpa Estructural Doite",
-            "descripcion": "Carpa estructural Doite para 5 personas. Con 2 ambientes y fácil armado. Por su gran altura permite estar de pie",
-            "precio": 5500,
-            "urlImagen": "carpa4",
+            "nombre": "Hamburguesa de Espinaca",
+            "descripcion": "Precio por unidad",
+            "precio": 64,
+            "urlImagen": "hamburguesa-espinaja",
             "estado": "sin stock",
             "puntaje": 5,
             "etiquetas": [
-                "carpa",
-                "estructural",
-                "Doite",
-                "5personas"
+                "hamburguesa",
+                "espinaca",
+                "veggie"
             ]
         },
         {
             "codigo": "PRCODE005",
-            "nombre": "Carpa Arye canadiense",
-            "descripcion": "Carpa canadiense Arye. Para 2 o 3 personas. Con tejido mosquitero, estructura de aluminio, piso lona cubre todo impermeable",
-            "precio": 6000,
-            "urlImagen": "carpa5",
+            "nombre": "Milanesa de Carne Frita",
+            "descripcion": "Precio por porción",
+            "precio": 142,
+            "urlImagen": "milanesas",
             "estado": "en stock",
             "puntaje": 4,
             "etiquetas": [
-                "canadiense",
-                "carpa",
-                "Arye"
+                "milanesa",
+                "carne"
             ]
         },
         {
             "codigo": "PRCODE006",
-            "nombre": "Sobre de dormir Dormilonas",
-            "descripcion": "Sobre de dormir. 2mt de largo. Con capucha y sobre para su fácil guardado. Color azul",
-            "precio": 600,
-            "urlImagen": "sobre1",
+            "nombre": "Buñuelos de Espinaca Fritos",
+            "descripcion": "Precio por porción",
+            "precio": 123,
+            "urlImagen": "bunuelos",
             "estado": "en stock",
             "puntaje": 4,
             "etiquetas": [
-                "sobre",
-                "dormir",
-                "capucha"
+                "espinaca",
+                "veggie"
             ]
         },
         {
             "codigo": "PRCODE007",
-            "nombre": "Sobre de dormir infantil",
-            "descripcion": "Sobre de dormir para niño/a, diseño de oso. Con capucha y resistente a bajas temperaturas. Largo 1,5mts",
-            "precio": 900,
-            "urlImagen": "sobre2",
+            "nombre": "Croquetas de Papa Jamón y Queso Frita",
+            "descripcion": "Precio por poción",
+            "precio": 100,
+            "urlImagen": "croquetas-papa",
             "estado": "en stock",
             "puntaje": 5,
             "etiquetas": [
-                "sobre",
-                "camping",
-                "infantil",
-                "oso"
+                "croqueta",
+                "papa",
+                "jamon"
             ]
         },
         {
             "codigo": "PRCODE008",
-            "nombre": "Sobre de dormir Bestway",
-            "descripcion": "Sobre de dormir de camping Bestway. Para adultos. Corte ajustado y acolchado para mayor comodidad y abrigo. Doble cierre",
-            "precio": 1500,
-            "urlImagen": "sobre3",
+            "nombre": "Tarta de Zapallitos",
+            "descripcion": "Precio por unidad",
+            "precio": 186,
+            "urlImagen": "tarta-zapallitos",
             "estado": "en stock",
             "puntaje": 4,
             "etiquetas": [
-                "sobre",
-                "camping",
-                "bestway"
+                "tarta",
+                "zapallitos"
             ]
         },
         {
             "codigo": "PRCODE009",
-            "nombre": "Sobre de dormir National Geographic",
-            "descripcion": "Sobre de dormir National Geographic para camping, Diseño tipo sarcófago para mejor abrigo en temperaturas de hasta -3°C. Largo: 2,30 mts. Incluye funda para guardado",
-            "precio": 2500,
-            "urlImagen": "sobre4",
+            "nombre": "Milanesa de Pollo Rellena Frita",
+            "descripcion": "Precio por porción",
+            "precio": 130,
+            "urlImagen": "milanesas-pollo-rellena",
             "estado": "sin stock",
             "puntaje": 5,
             "etiquetas": [
-                "sobre",
-                "NationalGeographic",
-                "camping"
+                "milanesa",
+                "pollo",
+                "jamon"
             ]
         },
         {
             "codigo": "PRCODE010",
-            "nombre": "Sobre de dormir camuflado",
-            "descripcion": "Sobre de dormir con diseño de camuflaje. Medida extra grande 2.10 x 075m , resiste hasta -3ºC Cierre en toda su extensión para abrir como acolchado . Capucha curva con elástico",
-            "precio": 1500,
-            "urlImagen": "sobre5",
+            "nombre": "Tarta de Jamón",
+            "descripcion": "Precio por unidad",
+            "precio": 186,
+            "urlImagen": "tarta-jamon",
             "estado": "en stock",
             "puntaje": 3,
             "etiquetas": [
-                "sobre",
-                "camuflado",
-                "camping"
+                "tarta",
+                "jamón"
             ]
         },
         {
             "codigo": "PRCODE011",
-            "nombre": "Silla plegable con apoyabrazos",
-            "descripcion": "Silla plegable Klimber con apoyabrazos y soporte para vaso. De lona azul y estructura de aluminio",
-            "precio": 500,
-            "urlImagen": "silla1",
+            "nombre": "Tortilla de Zapallitos al Horno",
+            "descripcion": "Precio por unidad",
+            "precio": 216,
+            "urlImagen": "tortilla-zapallitos",
             "estado": "en stock",
             "puntaje": 2,
             "etiquetas": [
-                "silla",
-                "plegable",
-                "apoyabrazos",
-                "camping"
+                "tortilla",
+                "zapallitos"
             ]
         },
         {
             "codigo": "PRCODE012",
-            "nombre": "Silla reposera alta",
-            "descripcion": "Silla plegable tipo reposera alta. Estructura de aluminio y asiento de lona blanca. Incluye apoya cabeza",
-            "precio": 2500,
-            "urlImagen": "silla2",
+            "nombre": "Tortilla de Papas al Horno",
+            "descripcion": "Precio por unidad",
+            "precio": 129,
+            "urlImagen": "tortilla-papas",
             "estado": "en stock",
             "puntaje": 3,
             "etiquetas": [
-                "silla",
-                "plegable",
-                "reposera",
-                "camping"
+                "tortilla",
+                "papa"
             ]
         },
         {
             "codigo": "PRCODE013",
-            "nombre": "Silla plegable MOR",
-            "descripcion": "Silla plegable MOR tipo reposera alta y asiento ancho. Estructura de aluminio de primera calidad. Resiste hasta 120kg",
-            "precio": 1000,
-            "urlImagen": "silla3",
+            "nombre": "Tarta de Champignon",
+            "descripcion": "Precio por unidad",
+            "precio": 207,
+            "urlImagen": "tarta-champignon",
             "estado": "en stock",
             "puntaje": 4,
             "etiquetas": [
-                "silla",
-                "plegable",
-                "reposera",
-                "camping",
-                "playa"
+                "tarta",
+                "champignon"
             ]
         },
         {
             "codigo": "PRCODE014",
-            "nombre": "Silla plegable con sombrilla",
-            "descripcion": "Silla plegable con sombrilla, posabrazos y bolsillo frontal. Estructura de metal y lona de poliéster. La sombrilla cuenta con protección contra rayos UV. Peso total 4,5 kg",
-            "precio": 2500,
-            "urlImagen": "silla4",
+            "nombre": "Croquetas de Arroz Jamón y Queso Fritas",
+            "descripcion": "Precio por porción",
+            "precio": 87,
+            "urlImagen": "croquetas-arroz",
             "estado": "en stock",
             "puntaje": 4,
             "etiquetas": [
-                "silla",
-                "plegable",
-                "sombrilla",
-                "camping"
+                "croqueta",
+                "arroz",
+                "jamon"
             ]
         },
         {
             "codigo": "PRCODE015",
-            "nombre": "Silla plegable con bolso debajo",
-            "descripcion": "Silla plegable Safari con bolso debajo del asiento. Color rojo. Sin posabrazos. Estructura de aluminio de primera calidad y asiento en tela lona Oxford. Base tipo tijera y respaldo bajo. Incluye mochila para fácil transporte",
-            "precio": 800,
-            "urlImagen": "silla5",
+            "nombre": "Milanesa de Pollo Frita",
+            "descripcion": "Precio por porción",
+            "precio": 130,
+            "urlImagen": "milanesas-pollo",
             "estado": "en stock",
             "puntaje": 5,
             "etiquetas": [
-                "silla",
-                "plegable",
-                "lona",
-                "camping",
-                "bolso"
+                "milanesa",
+                "pollo"
             ]
         },
         {
             "codigo": "PRCODE016",
-            "nombre": "Farol Led para camping",
-            "descripcion": "Farol con luz LED ideal para camping. 36 luces LED. Requiere 4 pilas tipo D. Color dorado. Con manija para colgar",
-            "precio": 200,
-            "urlImagen": "farol1",
+            "nombre": "Torta Pascualina",
+            "descripcion": "Precio por porción",
+            "precio": 90,
+            "urlImagen": "pascualina",
             "estado": "en stock",
             "puntaje": 5,
             "etiquetas": [
-                "farol",
-                "led",
-                "iluminación",
-                "camping",
-                "accesorios"
+                "tarta",
+                "pascualina"
             ]
         },
         {
             "codigo": "PRCODE017",
-            "nombre": "Cocinilla a gas para camping",
-            "descripcion": "Cocinilla con conexión para garrafa de 3kg o 13kg de gas butano. Sistema de seguridad. Encendido eléctrico. Valija plástica para fácil transporte",
-            "precio": 1500,
-            "urlImagen": "cocinilla1",
+            "nombre": "Papas Noissette Fritas",
+            "descripcion": "Precio por porción",
+            "precio": 84,
+            "urlImagen": "papas-noisettes",
             "estado": "en stock",
             "puntaje": 3,
             "etiquetas": [
-                "cocinilla",
-                "gas",
-                "cocina",
-                "camping",
-                "accesorios"
-            ]
-        },
-        {
-            "codigo": "PRCODE018",
-            "nombre": "Conservadora Coleman 4,5Lt",
-            "descripcion": "Conservadora Coleman roja 45.4LTS. Mantiene frías las comidas y bebidas por hasta 3 días . Lo suficientemente grande como para contener 63 latas y lo suficientemente alto como para sostener botellas de 2 litros en posición vertical. Con drenaje que facilita el drenaje de agua",
-            "precio": 3000,
-            "urlImagen": "conservadora1",
-            "estado": "en stock",
-            "puntaje": 5,
-            "etiquetas": [
-                "conservadora",
-                "Coleman",
-                "frio",
-                "camping",
-                "accesorios"
-            ]
-        },
-        {
-            "codigo": "PRCODE019",
-            "nombre": "Mesa plegable con asientos",
-            "descripcion": "Mesa plegable con asientos ideal para camping y actividades al aire libre. Con espacio para 4 personas. Elaborado en metal y plástico. Con valija para guardar y transportar",
-            "precio": 2300,
-            "urlImagen": "mesa1",
-            "estado": "en stock",
-            "puntaje": 5,
-            "etiquetas": [
-                "mesa",
-                "plegable",
-                "portátil",
-                "camping",
-                "equipamiento"
-            ]
-        },
-        {
-            "codigo": "PRCODE020",
-            "nombre": "Set de cocina para camping",
-            "descripcion": "Set de cocina para camping National Geographic. Para 4 personas. Incluye 1 Sartén, 2 Ollas, 4 Bowls, 1 Cucharón plástico y 1 Cuchara plástica. Material aluminio",
-            "precio": 2200,
-            "urlImagen": "mesa1",
-            "estado": "sin stock",
-            "puntaje": 5,
-            "etiquetas": [
-                "cocina",
-                "olla",
-                "Nationalgeographic",
-                "camping",
-                "equipamiento"
+                "papas",
+                "noisette"
             ]
         }
     ],
