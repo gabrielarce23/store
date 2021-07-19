@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catálogo de QR</title>
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js" defer></script>
+    <script src="./assets/js/codigo.js" defer></script>
   </head>
   <body>
     <div id="contenedor">
@@ -27,95 +29,78 @@
           productos filtrando el producto scaneado. Por ejemplo para el producto
           PRCODE001 se retornará:
         </p>
-        <p>
-          http://ec2-54-210-28-85.compute-1.amazonaws.com:3000/api/productos?codigo=PRCODE001
+        <p id="example">
+          
         </p>
 
         <br />
         <div>
           <h2>Milanesa de Carne Vegetal Multicereal Frita</h2>
-          <img src="./assets/imgs/PRCODE001.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Empanada de Jamón y Queso al Horno</h2>
-          <img src="./assets/imgs/PRCODE002.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Tarta de Ricota, Espinaca y Zanahoria Reducida en Calorías</h2>
-          <img src="./assets/imgs/PRCODE003.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Hamburguesa de Espinaca</h2>
-          <img src="./assets/imgs/PRCODE004.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Milanesa de Carne Frita</h2>
-          <img src="./assets/imgs/PRCODE005.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Buñuelos de Espinaca Fritos</h2>
-          <img src="./assets/imgs/PRCODE006.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Croquetas de Papa Jamón y Queso Frita</h2>
-          <img src="./assets/imgs/PRCODE007.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Tarta de Zapallitos</h2>
-          <img src="./assets/imgs/PRCODE008.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Milanesa de Pollo Rellena Frita</h2>
-          <img src="./assets/imgs/PRCODE009.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Tarta de Jamón</h2>
-          <img src="./assets/imgs/PRCODE010.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Tortilla de Zapallitos al Horno</h2>
-          <img src="./assets/imgs/PRCODE011.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Tortilla de Papas al Horno</h2>
-          <img src="./assets/imgs/PRCODE012.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Tarta de Champignon</h2>
-          <img src="./assets/imgs/PRCODE013.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Croquetas de Arroz Jamón y Queso Fritas</h2>
-          <img src="./assets/imgs/PRCODE014.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Milanesa de Pollo Frita</h2>
-          <img src="./assets/imgs/PRCODE015.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Torta Pascualina</h2>
-          <img src="./assets/imgs/PRCODE016.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <div>
           <h2>Papas Noissette Fritas</h2>
-          <img src="./assets/imgs/PRCODE017.png" />
-          <hr />
+          <div class="qr-img"></div><br/><hr />
         </div>
         <!--FIN INMUEBLE-->
       </div>
